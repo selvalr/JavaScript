@@ -1,7 +1,7 @@
-/*
-    const place = "hello";
-    const work = "world";
-*/
+
+   // const place = "hello";
+   // const work = "world";
+
 //console.log("%s,%s",place,work)
 
 //vs
@@ -96,7 +96,126 @@ console.log(typeof num2);
 */
 
 // conver to string to float
+
+/*
 let num2='1.50'
 console.log(parseFloat('1.00'));
 console.log(parseFloat('1.50'));
 console.log(parseFloat('ABC'));
+*/
+
+//----Variable----
+/*
+
+var name="karthi";
+name="ravi";
+
+console.log(`the  name,${name}`); 
+
+let age=21;
+age=12;
+console.log("age",age);
+
+const male="male";
+female="female";
+console.log("geder",male);
+
+*/
+
+
+/*
+//--Initialize these three variables--
+var a=10;
+var b=5;
+var c="selva";
+
+//do not change code below this line
+
+a= a+1;
+b=b+5;
+c=c+"my name";
+console.log(a,b,c);
+
+*/
+
+//---Case Sensitivity in Variables--
+/*
+let firstName;
+let lastName;
+let itAge;
+
+
+firstName="selva";
+lastName="manan";
+itAge=21;
+*/
+
+//----Escaping Literal Ouotes---
+/*
+var myStr="I am selva \n \"age 21\" i from \"avudaiyanoor\"";
+
+console.log(myStr);
+*/
+
+
+
+//---find the nth chracter
+/*
+var firstName="selvamanan";
+var thirdLastLetterOfFirstName=firstName[firstName.length+9];
+console.log(thirdLastLetterOfFirstName);
+*/
+
+//---modified array--
+/*
+var myArray=[10,20,30];
+myArray[1]=22;
+console.log(myArray);
+
+*/
+
+//--array multi dimensional arrays---
+/*
+var myArray=[[1,2,3],[4,5,6],[[7,8,9[10,11,12]]]];
+var myData=myArray[2,1][2];
+console.log(myData);
+*/
+
+//---Array Push----
+/*
+var myArray=["apple","banana","orange"];
+newArray=myArray.push(["lemon","graphes"]);
+console.log(myArray);
+*/
+
+//---Array pop---
+/*
+var myArray=[1,2,3];
+var removedFromArray=myArray.pop();
+console.log(myArray);
+
+var ourArray=[[1,2],[3,4]];
+var ourDeleteArray=ourArray.pop();
+console.log(ourArray);
+*/
+
+//---shift array---
+/*
+var myArray=[1,2,[3,4]];
+var shifftArray=myArray.shift();
+console.log(myArray);
+
+*/
+
+//---unshift array---
+/*
+var ourArray=["hai","s","kar"];
+ourArray.shift();
+console.log(ourArray);
+ourArray.unshift("le");
+
+console.log(ourArray);
+*/
+
+//---global scope and function
+
