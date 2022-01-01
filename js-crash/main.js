@@ -132,7 +132,7 @@ while(x<=20){
 
 
 //for of
-
+/*
 const person1=[
     {
         name:'baskar',
@@ -150,6 +150,8 @@ const person1=[
         work:'avr'
     }
 ];
+
+*/
 /*
 for(let person of person1){
     console.log(person.age);
@@ -178,3 +180,68 @@ const person2=person1.filter(function(person){
 console.log(person2);
 */
 
+
+//elseif
+/*
+let mark1 = 50;
+
+if (mark1 === 50) {
+    console.log('100');
+}else if (mark1 >50) {
+    console.log('b gra');
+
+}else {
+    console.log('c gr');
+}
+*/
+
+
+//condition Switchcase
+/*
+const a=21;
+const vote=a>18?'eligible':'not eligible';
+console.log(vote);
+
+switch(vote){
+    case "eligible":
+    console.log('voteis');
+    break;
+}
+*/
+
+//function----
+/*
+const number=1;
+const number2=4;
+
+function add(number,number2){
+    return number+number2;
+}
+console.log(add(number,number2));
+
+//es6 function latest function
+
+const addnums=(number2=3,number=1)=>{
+    return number2+number;
+}
+console.log(addnums(5,5));
+
+//function
+const addnums1=(number2=3,number=1)=>
+    console.log(number2+number);
+
+addnums1(5,6);
+*/
+
+
+//---constructer function-----
+
+function Person(firstName,lastName,age){
+    this.firstName=firstName;
+    this.lastName=lastName;
+    this.age=age;
+}
+//instantiate object
+
+const person1=new Person('selva','maan',21);
+console.log(person1);
