@@ -19,6 +19,28 @@
 ### who uses javascript?
 
 - all those social media website 
+- websites 
+- web app ----->facebook,flipcard,etc....
+- mobile apps
+- Desktop apps
+- games
+
+## js display the rules:
+       console.log()-log is a write a console 
+       console.write()-write is a browser
+       alert()-the website to the alert message
+       prompt()-the website is a alert box to the enter the value
+
+## JS rules:
+1.No javascript keyword name;
+2.should not start with number
+3.no space & no - in the variable
+4.its case-sensitive
+5.use meaningful names:
+### ECMA script vs Javascript
+
+- ECMA is a set of specification rules
+
 
 ### What you will learn in this course
 
@@ -75,14 +97,18 @@ switch - to specify many alternative blocks of code to be executed
 
 5).comparison & operators
 
+Arithmetic Operator: +,-,%,*,/,**
+
+Assignment operator:=,+=,-=,*=,example:x=5;
+
 Comparison Operators
-        Comparison operators are used in logical statements to determine equality or difference between variables or values.
+       - Comparison operators are used in logical statements to determine equality or difference between variables or values.
 
-        Given that x = 5, the table below explains the comparison operators:
+       - Given that x = 5, the table below explains the comparison operators:
 
-==	equal to	                x == 8	false	
-                                        x == 5	true	
-                                        x == "5"true	
+==	equal to	                x == 8	 false	
+                                        x == 5	 true	
+                                        x == "5" true	
 
 ===	equal value and equal type	x === 5  true	
                                         x === "5"	false	
@@ -94,17 +120,35 @@ Comparison Operators
                                                 x !== "5"	true	
                                                 x !== 8	true	
 
+Realational operator:
+x=5;
+
+
 >	greater than	                        x > 8	false	
 
-<	less than	x < 8	true	
+<	less than	                        x < 8	true	
 
->=	greater than or equal to	x >= 8	false	
-<=	less than or equal to	x <= 8	true
+>=	greater than or equal to	        x >= 8	false	
+
+<=	less than or equal to	                x <= 8	true
 
 
-logical operator:&&AND,OR ||,NOT !
+logical operator:&& AND,OR ||,NOT !
 
 Conditional (Ternary) Operator:variablename = (condition) ? value1:value2 
+
+Bitwise Operators:OR
+       Human code->Machine Code
+       1->00000001->1
+       2->00000010->2
+       R->00000011->3
+       console.log(1|2);//output:3
+
+Bitwise Operators:AND
+       1->00000001->1
+       2->00000010->2
+       R->00000000->0
+       console.log(1&2);//Output:0
 
 6).object
 

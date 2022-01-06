@@ -1,11 +1,15 @@
 //----console method
 /*
-alert("hai selva")
+alert("hai selva");//alert box
+
+prompt();//alert box texting value
+console.log(no);
 console.log("hai selva");
 console.error("hai");
 console.warn("hello");
-*/
+console.write('hai');
 
+*/
 //let,const ---> is a block scope
 /*
 let age=21;
@@ -17,11 +21,19 @@ name="selva"
 console.log(name);
 */
 
+//number in js incement & Decrement
+/*
+let a=5;
+a++;
+a--;
+console.log(a+5);
+*/
+
 //---Data types---
 //String,number,boolean,null,undefined
 /*
 const name='selva';//string
-const age=21;//number
+const age=21;//integer number
 const pi=3.14;//decimal number
 const isSmooke=false;//boolean
 const x=null;//null
@@ -209,7 +221,16 @@ switch(vote){
 }
 */
 
-//function----
+//----function----
+// create a function --->var no=function calMy()=>{}
+// call the function --->calMy();
+/*
+const fullName=(firstName)=>{
+    console.log('my name '+name);
+}
+const name=prompt('enter youjr name');
+fullName(name);
+*/
 /*
 const number=1;
 const number2=4;
@@ -226,16 +247,18 @@ const addnums=(number2=3,number=1)=>{
 }
 console.log(addnums(5,5));
 
-//function
+//function arquement
 const addnums1=(number2=3,number=1)=>
     console.log(number2+number);
 
 addnums1(5,6);
+
 */
 
 
-//---constructer function-----
 
+//---constructer function-----
+/*
 function Person(firstName,lastName,age){
     this.firstName=firstName;
     this.lastName=lastName;
@@ -245,3 +268,100 @@ function Person(firstName,lastName,age){
 
 const person1=new Person('selva','maan',21);
 console.log(person1);
+*/
+
+
+//---while loop----
+/*
+let no1 = 1;
+
+while (no1 < 100) {
+    no1 += 10;
+    console.log('no',no1);
+}
+*/
+
+//---string method in javascript--
+/*
+let actorName='Ajith';
+let lastName='kumar';
+let actorHobbies="Ajithkuar,bike racing,aero modeling";
+console.log(actorName.length);//10
+console.log(lastName.indexOf('ar'));
+console.log(actorHobbies.slice(10));//i
+console.log(actorHobbies.substring(3,8));//thkuma
+let newName=actorName.replace('Ajith','ThalaAjth');//ThalaAjith
+console.log(' ',newName);
+console.log(actorName.toLowerCase());//ajith
+console.log(actorName.toUpperCase());//AJITH
+console.log(actorName.charAt(4));//h
+console.log(actorName.split(','));//split by commma
+console.log(actorName.split(''));//split by character
+*/
+/*
+let number = ['1', '2', '3', '4', '5', '6', '7'];
+number = new Array('1', '2', '3', '4','5', '6', '7');
+console.log(number[2]);//3
+//array common method
+
+console.log(number.toString());//1,2,3,4,5,6,7
+console.log(number.join('-'));//1-2-3-4-5-6-7
+console.log(number.pop(),number);//remove last item
+console.log(number.push('8'),number);//appends
+
+console.log(number.shift());//remove first element delete from a array
+console.log(number);
+
+console.log(number.unshift('1'));//add first element to a array
+console.log(number);
+
+let vegtable=['tomoto','ginger','bdvbjdbj'];
+let allAcp=number.concat(vegtable);
+console.log(allAcp);//['1','2','3','4','5','6','8','tomoto','giegr','bdd']
+console.log(allAcp.slice(1,5));//['2','3','4','5']
+console.log(allAcp.reverse());//reverse no
+console.log(allAcp.sort());//arrange a value
+console.log(allAcp.sort(function(a,b){return a-b}));//sort is ascending order
+console.log(allAcp.sort(function(a,b){return b-a}));//sort is decending order
+
+*/
+/*
+let capArray=new Array();
+for(let i=1;i<10;i++){
+   capArray.push(i);
+}
+console.log(capArray);
+*/
+//---Object---
+/*
+let schlName={
+    name:'punitha arullaper',
+    place:'Avudaiyanoor',
+    pincode:627808,
+    studenInfo: function(){
+        return this.name +'\n' + this.place;
+    }
+}
+//console.log(schlName.name);
+schlName.name='TDTA';
+console.log(schlName.name);
+schlName.pincode++;
+console.log(schlName.pincode);
+console.log(schlName.studenInfo());
+
+*/
+
+//---Conditioals control flows (if else)
+/*
+let no2=prompt('enter a no');
+if((no2>18 && no2<35)){
+    status='fitness';
+    console.log(status);
+}
+else{
+    status='not fitness';
+    console.log(status);
+}
+
+*/
+
