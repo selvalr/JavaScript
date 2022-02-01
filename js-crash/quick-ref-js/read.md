@@ -70,6 +70,39 @@ const price1=10,const price2=10;---> These prices are constant values, and canno
 2).arrays
 
 let cars=["saab","volovo"];
+console.log(cars[1]);
+
+//foreach array
+
+let cars=["saab","volovo"];
+cars.foreach(available);
+
+function available(cars){
+       console.log('the select'+cars+'cars')
+}
+
+//map
+       let cars=[
+              {name:"saab",model:54657},
+              {name:"volovo",model:798989}];
+
+
+available=(carsModel)=>carsModel.name
+
+var result=cars.map(available)
+console.log(result)
+
+//filteer
+
+       let cars=[
+              {name:"saab",model:54657},
+              {name:"volovo",model:798989}
+              ];
+
+caColor =(carcolor)=>carcolor.model ==54657
+var bikmodel=cars.filter(cacolor)
+
+
 
 
 
@@ -152,7 +185,50 @@ Bitwise Operators:AND
 
 6).object
 
+
+       var personName={
+              name:'selva',
+              age:21,
+              city:'tenkasi',
+              develop(){
+                     console.log('hai web site')
+                     }
+              }
+
 7).function
+//normal function
+
+       function add(){
+              return(2+5);
+       }
+       console.log(add())
+
+
+
+//arrow latest functions
+
+       add =()=>{
+              console.log(a+b);
+       }
+       add();
+
+
+
+       add = () => (a+b)
+       console.log(add())
+
+//higher order function
+
+       var number =10;
+
+       function multiplier(whichNumber){//whichnumber=2
+              return function(x){//x=10
+                     return x*whichnumber
+              }
+       }
+
+       var twox=multiplier(2)
+       console.log(twox(number))
 
 8).program flow
 

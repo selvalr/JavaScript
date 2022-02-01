@@ -365,3 +365,8 @@ else{
 
 */
 
+
+let number1=[10,20,30,40,50]
+
+let result=number1.map((x)=>x*10);
+console.log(result);
