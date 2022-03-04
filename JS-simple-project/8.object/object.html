@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <h1>Object</h1>
+
+    <script>
+        let selva={
+            fName:"Selva",//string
+            age:22,//num
+            studied:["10","12","BCA"],//array
+            favPlaces:()=>{//function
+                return `hai ${selva.fName} i am ${selva.age} years old`;
+            }
+        }//object
+                                    //output
+        console.log(selva.fName);//selva
+        console.log(selva.studied[2]);//Bca
+        for(stdy of selva["studied"]){//for of
+            console.log(stdy);
+        }
+        console.log(selva.favPlaces());//call fun
+    </script>
+    
+</body>
+</html>

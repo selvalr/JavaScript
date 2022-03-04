@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparision</title>
+</head>
+<body>
+    <script>
+        let myName='selva';
+        let newName='SELVA';
+        let x=3;
+        let y='4';
+
+        console.groupCollapsed('comparison');
+
+        console.log(myName == newName);//false
+        console.log(x === y);//false
+        console.log(x !=y);//true
+        console.log(x<y);//true
+        console.log(x>y);//false
+        console.log(x >= y);//false
+        console.log(x <= y);//true
+        console.groupEnd();
+    </script>
+
+    <script>
+        let a=20,b=22;
+        console.groupCollapsed('logical operator');
+        console.log((a < 10 && b > 1) );//false
+        console.log((a == 5 || b== 5));//false
+        console.log(!(a== b));//true
+        console.groupEnd()
+    </script>
+    
+</body>
+</html>
